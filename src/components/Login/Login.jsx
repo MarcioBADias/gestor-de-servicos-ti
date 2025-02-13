@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaUser, FaLock } from 'react-icons/fa'
+import './Login.css'
 
 function Login() {
   return (
