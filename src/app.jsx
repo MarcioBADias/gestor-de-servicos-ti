@@ -1,8 +1,10 @@
+import { Login } from '@/components/Login/Login'
+
 const App = () => {
   return (
-    <>
-      <h1>Gestor de Serviços</h1>
-    </>
+    <div className="app">
+      <Login />
+    </div>
   )
 }
 

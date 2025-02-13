@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Bree+Serif&family=Inconsolata:wght@200..900&family=Telex&display=swap');
 
+:root {
+  --color-light: #ffffff;
+  --color-primary: #181a4a;
+  --color-secondary: #6b7398;
+}
+
 * {
-  background: url(/Portal_Tech.png);
   box-sizing: border-box;
+  color: var(--color-light);
   font-family: 'Telex', serif;
   margin: 0;
   padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(/Portal_Tech.png) no-repeat;
 }
