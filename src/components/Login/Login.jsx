@@ -9,24 +9,19 @@ function Login() {
         <form>
           <h1>Acesso de usuario</h1>
           <div className="input-field">
-            <input
-              type="text"
-              name="email"
-              placeholder="E-mail"
-              required
-              value="#"
-            />
+            <input type="text" name="email" placeholder="E-mail" required />
             <FaUser className="icon" />
           </div>
           <div className="input-field">
-            <input
-              type="password"
-              name="senha"
-              placeholder="Senha"
-              required
-              value="#"
-            />
+            <input type="password" name="senha" placeholder="Senha" required />
             <FaLock className="icon" />
+          </div>
+          <div className="recall-forget">
+            <label>
+              <input type="checkbox" />
+              Lembre de mim
+            </label>
+            <a href="#">Esqueceu sua senha?</a>
           </div>
           <button type="submit">Login</button>
           <div className="signup-link">

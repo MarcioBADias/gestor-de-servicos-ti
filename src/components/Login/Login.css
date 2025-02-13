@@ -31,8 +31,3 @@
   top: 50%;
   transform: translateY(-50%);
 }
-
-.container .recall-forget {
-  display: flex;
-  justify-content: space-between;
-}
