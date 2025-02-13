@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <>
-      <h1>Boilerplace + React</h1>
+      <h1>Gestor de Serviços</h1>
     </>
   )
 }
